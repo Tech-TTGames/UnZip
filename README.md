@@ -7,4 +7,3 @@
   destpath - The path to the place where the unzipped contents of the zips are placed
   mispwdpop - Whether the program should display a pop-up window when theres a zip file with no working password
   updatetime - How frequently should the program check for new zips (mins)
-  rmfile - Whether the file should be deleted after un-zipping

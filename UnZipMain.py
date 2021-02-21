@@ -32,8 +32,7 @@ while(True):
                             ctypes.windll.user32.MessageBoxW(0, "The program didn't find a matching password for file:\n "+zipfi+"\nPlease add the password to the config.json file!", "Error: Password not found!", 0)
                         cr = 0
             if cr:
-                if config["rmfile"]:
-                    os.remove(zipfi)
+                os.remove(zipfi)
             cr = 1
     lisofi = []
     sleep(config["update-time"]*60)
