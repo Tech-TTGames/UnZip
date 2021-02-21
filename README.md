@@ -7,3 +7,5 @@
   * destpath - The path to the place where the unzipped contents of the zips are placed
   * mispwdpop - Whether the program should display a pop-up window when theres a zip file with no working password
   * updatetime - How frequently should the program check for new zips (mins)
+To set the program to auto-start on startup copy launcher.bat and paste a shortcut in
+C:\Users\<username>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
